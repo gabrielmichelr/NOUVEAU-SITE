@@ -1,18 +1,25 @@
+
+
 .header{
+ display: block; 
  width: 100%;
  padding: 10px;
  text-align: center;
- background: grey;
+ 
 }
 
+p{
+font-size: 20px;
 
+}
 
 body{
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 5% ;
   padding : 10px 10px 10px;
-  background-image: linear-gradient(green,yellow ,cyan);
+  background-image: linear-gradient(rgb(0, 255, 136) ,cyan);
 }
+
 
 section{
 font-family: 'Times New Roman', Times, serif;
@@ -20,11 +27,14 @@ margin-top: 100px;
 margin-bottom: 100px;
 }
 
-
+section>h2{
+text-decoration: underline;
+text-align: center;
+}
 
 .navbar {
   display: flex;
-    background-color: aquamarine;
+    background-color: ;
   text-align: center;
   
 }
