@@ -1,12 +1,18 @@
 
-
 .header{
- display: block; 
  width: 100%;
- padding: 10px;
  text-align: center;
- 
+ border-style: ridge;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 20px;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  color:white;
+  padding : 0px 0px 0px;
 }
+
+
 
 p{
 font-size: 20px;
@@ -15,27 +21,21 @@ font-size: 20px;
 
 body{
   font-family: 'Times New Roman', Times, serif;
-  margin-bottom: 5% ;
-  padding : 10px 10px 10px;
+  margin-bottom: 5px ;
+  padding : 0px 1px 5px;
   background-image: linear-gradient(rgb(0, 255, 136) ,cyan);
-}
-
-
-section{
-font-family: 'Times New Roman', Times, serif;
-margin-top: 100px;
-margin-bottom: 100px;
-}
-
-section>h2{
-text-decoration: underline;
-text-align: center;
+  width: 100%;
 }
 
 .navbar {
   display: flex;
-    background-color: ;
   text-align: center;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 20px;
+  letter-spacing: 4px;
+  opacity: 0.9;
   
 }
 .nav li {
@@ -44,54 +44,26 @@ text-align: center;
   padding: 20px;
 }
 
-#validation{
-      
-      box-sizing: content-box;
-      border: solid 5px;
-      background-color: rgb(240, 133, 125);
-      text-align: center;
-      height: 250px ;
-      margin-bottom: 10px;
-      margin-top :10px;
-      width: auto;
+.card-group{
+margin: 5px;
+padding: 10px;
+
+}
+
+.clearfix {
+  text-decoration: underline;
+  font-size: 20px;
+}
+ 
+ h2{
+   text-align: center;
+   text-decoration: underline;
+ }
+
+article{
+margin-bottom: 50px;
   
-    
-        }
-#text{
-    
-    width: 40% ;
-    padding-left : .5rem;
-    margin-left: .5rem;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-
-}
-
-#last{
-display: inline;
-
 }
 
 
 
-.img {
-  position: relative;
-  padding : 20px ;
-  margin-top: 2%;
-  text-align: center;
-}
-
- .topright{
-  position: absolute;
-  top: 8px;
-  right: 16px;
-  font-size: 18px;
-  }
-
- @media screen and (max-width: 700px) {
-  .container{
-    flex-direction: column;
-    flex: 100%;
-  }
-}
