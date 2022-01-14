@@ -69,7 +69,7 @@ font-weight: bold;
 footer {
     display: flex;
     justify-content: center;
-    padding: auto;
+    padding: 5px;
     background-color:#2d2d30;
     color: #fff;
 }
