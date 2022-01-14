@@ -45,25 +45,31 @@ body{
 }
 
 .card-group{
-margin: 5px;
-padding: 10px;
-
+padding: 2px;
 }
 
-.clearfix {
+
+h1, h2{
+  text-align: center;
   text-decoration: underline;
-  font-size: 20px;
 }
  
- h2{
-   text-align: center;
-   text-decoration: underline;
- }
-
+ 
 article{
 margin-bottom: 50px;
   
 }
 
+.container,.container > p{
+text-align: center;
+font-weight: bold;
 
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    background-color:#2d2d30;
+    color: #fff;
+}
