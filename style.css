@@ -1,3 +1,8 @@
+*{
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+
+}
 
 .header{
  width: 100%;
@@ -13,14 +18,11 @@
 }
 
 
-
 p{
 font-size: 20px;
-
 }
 
 body{
-  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 5px ;
   padding : 0px 1px 5px;
   background-image: linear-gradient(rgb(0, 255, 136) ,cyan);
@@ -46,10 +48,17 @@ body{
 
 .card-group{
 padding: 2px;
+
+}
+
+.card-header{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 
-h1, h2{
+h1, h2 , h5{
   text-align: center;
   text-decoration: underline;
 }
@@ -57,19 +66,17 @@ h1, h2{
  
 article{
 margin-bottom: 50px;
-  
+ 
 }
+
 
 .container,.container > p{
 text-align: center;
-font-weight: bold;
-
 }
-
 
 .talk-container {
   border: 2px solid black (204, 204, 204);
-  background-color: rgba(60, 23, 102, 0.603);
+  background-color: rgba(195, 164, 226, 0.603);
   border-radius: 5px;
   padding: 8px;
   margin: 16px 0
@@ -93,6 +100,10 @@ font-weight: bold;
   text-decoration-line: underline;
 }
 
+.checked {
+  color: orange;
+}
+
 @media (max-width: 500px) {
   .talk-container {
       text-align: center;
@@ -105,29 +116,6 @@ font-weight: bold;
 }
 
 
-.price-container{
- border: 2px solid black (204, 204, 204);
-  background-color: beige;
-  border-radius: 5px;
-  padding: 8px;
-  margin: 16px 0
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px 10px;
-  }
-
-
-
-
-
-
-
-
-
- 
 footer {
     display: flex;
     justify-content: center;
@@ -155,12 +143,52 @@ footer >.fa-facebook {
   color: white;
 }
 
-footer >#icon{
+.icon{
   float: left;
+  font-size: 30px;
 }
 
+.tableau{
+margin-top: 100px;
+margin-bottom: 20px;
+}
 
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 4px;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  
+}
 
+.promo {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  font-weight:900;
+  
+}
 
+.promo:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
 
+.promo .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
 
+.promo li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .columns {
+    width: 100%;
+  }
+}
